@@ -1,28 +1,44 @@
-body{
+body {
     display: flex;
     flex-direction: column;
 }
 
-.container{
+.container {
     display: flex;
     flex-direction: row;
     border-bottom: 5px solid blue;
 }
 
-.div1{
+.div1 {
     display: flex;
 }
 
-.div2{
+.div2 {
     display: flex;
 }
 
-#div2{
+#div2 {
     border: 3px solid violet;
     border-radius: 26px;
 }
 
-.divc1{
+#div2:hover {
+    background-color: darkgreen;
+}
+
+#div3 {
+    font-family: cursive, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.divc1 {
     display: flex;
     flex-direction: column-reverse;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+h1:first-child {
+    color: darkblue;
 }
