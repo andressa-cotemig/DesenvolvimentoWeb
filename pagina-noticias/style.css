@@ -17,7 +17,7 @@ body {
     background-color: lightgrey;
 }
 
-.mais-lidas>span {
+.mais-lidas>h1 {
     padding-top: 30px;
     display: flex;
     width: 100%;
@@ -50,7 +50,8 @@ li {
 }
 
 img {
-    width: 80%;
+    max-height: 100px;
+    max-width: 80%;
 }
 
 .noticia {
@@ -59,6 +60,10 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+#n5 {
+    background-color: aquamarine;
 }
 
 .noticia>img {
