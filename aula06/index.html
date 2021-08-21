@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Aula 06</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="campoNome" class="campo">
+        <label>Nome: </label>
+        <input id="nome" type="text" placeholder="Digite o nome">
+    </div>
+
+    <div id="campoSobrenome" class="campo">
+        <label>Sobrenome: </label>
+        <input class="sobrenome" type="text" placeholder="Digite o Sobrenome">
+    </div>
+
+    <div id="campoPeriodo" class="campo">
+        <label>Período nascimento: </label>
+        <input type="radio" name="periodo" value="periodo1" checked>Jan/Fev/Mar/Abr</input>
+        <input type="radio" name="periodo" value="periodo2">Mai/Jun/Jul/Ago</input>
+        <input type="radio" name="periodo" value="periodo3">Set/Out/Nov/Dez</input>
+    </div>
+
+    <button id="buttonRemover" type="button" onclick="remover()">Remover</button>
+
+    <button id="buttonInserir" type="button" onclick="inserir()">Inserir titulo</button>
+
+    <div id="final"></div>
+    
+    <div id="excluir">teste para excluir</div>
+
+    <button type="buttonEnviar" id="enviar" onclick="enviar()">enviar</button>
+
+    <button id="buttonDefault" type="button" onclick="setDefault()">Default</button>
+
+
+    <script type="text/javascript" src="script.js"> </script>
+</body>
+
+</html>

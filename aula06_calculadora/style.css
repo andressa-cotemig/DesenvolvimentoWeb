@@ -1,0 +1,9 @@
+body {
+    background-color: burlywood;
+}
+
+button{
+    width: 200px;
+    align-self: center;
+    margin-top: 20px;
+}
