@@ -5,25 +5,34 @@ function calcular(oper) {
 
 	switch (oper) {
 		case '-': {
-			resultado = n1 - n2;
+			resultado = document.createTextNode(n1 - n2);
 			break;
 		};
 		case '*': {
-			resultado = n1 * n2;
+			resultado = document.createTextNode(n1 * n2);
 			break;
 		};
 		case '/': {
-			resultado = n1 / n2;
+			resultado = document.createTextNode(n1 / n2);
 			break;
 		};
 		case '+': {
-			resultado = n1 + n2;
+			resultado = document.createTextNode(n1 + n2);
 			break;
 		};
 		default: {
-			resultado = 'Erro';
+			resultado = document.createTextNode('Erro');
 			break;
 		}
 	}
-	console.log(n1, oper, n2, '=', resultado)
+	const resultadoDiv = document.getElementById('resultado');
+	let valor = document.getElementById('valor');
+	if (valor) {
+		resultadoDiv.removeChild(valor);
+	}
+	valor = document.createElement('h1');
+	valor.id = 'valor';
+	valor.appendChild(resultado);
+	resultadoDiv.appendChild(valor);
+	console.log(n1, oper, n2, '=', resultado);
 }
