@@ -25,5 +25,4 @@ function exibir() {
 		resultado.removeChild(resultado.firstChild);
 	}
 	resultado.appendChild(listaHtml);
-
 }
