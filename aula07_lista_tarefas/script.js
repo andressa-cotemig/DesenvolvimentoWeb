@@ -1,4 +1,4 @@
-let listaTarefa = [];
+
 function enviar() {
 	const item = document.getElementsByTagName('input')
 	listaTarefa.push(item[0].value)
