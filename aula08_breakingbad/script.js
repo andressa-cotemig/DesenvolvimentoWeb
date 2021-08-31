@@ -15,15 +15,15 @@ request.onload = function () {
 		personagemDiv.id = 'personagem'
 
 		const nome = document.createElement('label');
-		nome.appendChild(document.createTextNode(personagem.name));
+		nome.appendChild(document.createTextNode('Nome: ' + personagem.name));
 		personagemDiv.appendChild(nome);
 
 		const aniversario = document.createElement('label');
-		aniversario.appendChild(document.createTextNode(personagem.birthday));
+		aniversario.appendChild(document.createTextNode('Aniversário: ' + personagem.birthday));
 		personagemDiv.appendChild(aniversario);
 
 		const status = document.createElement('label');
-		status.appendChild(document.createTextNode(personagem.status));
+		status.appendChild(document.createTextNode('Status: ' + personagem.status));
 		personagemDiv.appendChild(status);
 
 		const foto = document.createElement('img');
