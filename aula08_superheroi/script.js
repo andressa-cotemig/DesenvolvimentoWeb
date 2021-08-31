@@ -35,8 +35,5 @@ request.onload = function () {
 	});
 
 	const resultado = document.getElementById("resultado");
-	while (resultado.firstChild) {
-		resultado.removeChild(resultado.firstChild);
-	}
 	resultado.appendChild(tableHtml);
 }
