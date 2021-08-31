@@ -1,0 +1,25 @@
+img {
+    width: 100px;
+}
+
+#resultado{
+    display: flex;
+}
+
+#personagens{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#personagem{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 2px solid violet;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+

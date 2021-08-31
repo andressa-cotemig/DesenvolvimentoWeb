@@ -1,0 +1,14 @@
+table {
+    border: 1px brown solid;
+    width: 100%;
+}
+
+th {
+    background-color: black;
+    color: white;
+}
+
+td {
+    background-color: blanchedalmond;
+    color: black;
+}
