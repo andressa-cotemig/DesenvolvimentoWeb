@@ -1,4 +1,5 @@
 import React from 'react';
+import Formulario from './Formulario/Formulario';
 import ListaItens from './ListaItens/ListaItens';
 
 export default class Aula05 extends React.Component {
@@ -34,6 +35,7 @@ export default class Aula05 extends React.Component {
         </button>
 
         <ListaItens />
+        <Formulario />
       </div>
     )
   }
