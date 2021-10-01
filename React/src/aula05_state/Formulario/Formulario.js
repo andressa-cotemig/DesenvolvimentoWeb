@@ -30,56 +30,55 @@ export default class Formulario extends React.Component {
     }
 
     changeAltura(newAltura) {
-        this.setState({ altura: newAltura.replace(",",".") });
+        this.setState({ altura: newAltura.replace(",", ".") });
     }
 
     render() {
         const { nome, idade, sexo, peso, altura } = this.state;
         return (
             <div>
+                <h1>Dados:</h1>
                 <div>
-                    Nome: <input
+                    <label>Nome:</label>
+                    <input
                         onChange={(e) => this.changeNome(e.target.value)}
                     />
                 </div>
+
                 <div>
-                    Idade: <input
+                    <label>Sexo:</label>
+                    <input type="radio" name="sexo" value="Feminino" onChange={(e) => this.changeSexo(e.target.value)} /> Feminino
+                    <input type="radio" name="sexo" value="Masculino" onChange={(e) => this.changeSexo(e.target.value)} /> Masculino
+                </div>
+
+                <div>
+                    <label>Idade:</label>
+                    <input
                         onChange={(e) => this.changeIdade(e.target.value)}
                     />
                 </div>
+
                 <div>
-                    Sexo:
-                    <input type="radio" id="html" name="sexo" value="Feminino" onChange={(e) => this.changeSexo(e.target.value)} /> Feminino
-                    <input type="radio" id="css" name="sexo" value="Masculino" onChange={(e) => this.changeSexo(e.target.value)} /> Masculino
-                </div>
-                <div>
-                    Peso: <input
+                    <label>Peso:</label>
+                    <input
                         onChange={(e) => this.changePeso(e.target.value)}
                     />
                 </div>
+
                 <div>
-                    Altura: <input
+                    <label>Altura:</label>
+                    <input
                         onChange={(e) => this.changeAltura(e.target.value)}
                     />
                 </div>
-                <br />
-                <b>Resultado:</b>
-                <div>
-                    <div>
-                        Nome:{nome}
-                    </div>
-                    <div>
-                        Idade:{idade}
-                    </div>
-                    <div>
-                        Sexo:{sexo}
-                    </div>
-                    <div>
-                        Peso:{peso}
-                    </div>
-                    <div>
-                        Altura:{altura}
-                    </div>
+
+                <div id="resultado-formulario">
+                    <h1>Resultado</h1>
+                    <div>Nome: {nome}</div>
+                    <div>Sexo: {sexo}</div>
+                    <div>Idade: {idade}</div>
+                    <div>Peso: {peso}</div>
+                    <div>Altura: {altura}</div>
                 </div>
 
                 <IMC sexo={sexo} peso={peso} altura={altura} />
