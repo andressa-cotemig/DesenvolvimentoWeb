@@ -14,7 +14,11 @@ export class LifeCycle extends React.Component {
             <div className="Lifecycle">
                 <h1>Componente Lifecycle</h1>
                 <br />
-                {this.props.exibicao ? <h2>Exibindo nome: Andressa</h2> : null}
+                {
+                    this.props.exibicao ?
+                        <h2>Exibindo nome: Andressa</h2>
+                        : null
+                }
             </div>
         );
     }
