@@ -8,7 +8,8 @@
 // import Aula06 from "./aula06_lifecycle/Aula06";
 // import Aula07 from "./aula07_consumir-api/Aula07";
 // import Aula08 from "./aula08_consumir-api-axios/Aula08";
-import Aula09 from "./aula09_rotas/Aula09";
+// import Aula09 from "./aula09_rotas/Aula09";
+import { Aula10 } from "./aula10_redux";
 
 //  npm i -g create-react-app           instalação
 //  npx create-react-app my-app         criar novo projeto
@@ -16,8 +17,9 @@ import Aula09 from "./aula09_rotas/Aula09";
 function App() {
   return (
     <div>
-      <Aula09 />
+      <Aula10 />
       {/*
+      <Aula09 />
       <Aula08 />
       <Aula07 />
       <Aula06/>

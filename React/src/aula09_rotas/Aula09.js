@@ -7,6 +7,7 @@ import Aula05 from '../aula05_state/Aula05';
 import Aula06 from '../aula06_lifecycle/Aula06';
 import Aula07 from '../aula07_consumir-api/Aula07';
 import Aula08 from '../aula08_consumir-api-axios/Aula08';
+import { Aula10 } from "../aula10_redux";
 import Menu from "./Menu/Menu";
 import './Aula09.scss';
 
@@ -24,6 +25,7 @@ const Routes = () => {
         <Route path="/Aula06" component={Aula06} />
         <Route path="/Aula07" component={Aula07} />
         <Route path="/Aula08" component={Aula08} />
+        <Route path="/Aula10" component={Aula11} />
       </BrowserRouter>
     </div>
   )
