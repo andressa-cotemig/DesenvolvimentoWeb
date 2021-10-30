@@ -1,5 +1,7 @@
 import React from 'react';
+import { AlteraNome } from './AlteraNome';
 import './Aula10.scss'
+import { Nome } from './Nome';
 
 export default class Aula10 extends React.Component {
   constructor(props) {
@@ -27,7 +29,9 @@ export default class Aula10 extends React.Component {
         <button onClick={() => clickButton(inputValue)}>
           Click me!
         </button>
-        <h1>{newValue}</h1>
+        <h1>Aula10: {newValue}</h1>
+        <Nome />
+        <AlteraNome />
       </div>
     );
   }
