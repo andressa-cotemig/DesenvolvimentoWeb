@@ -27,7 +27,7 @@ export default class Aula10 extends React.Component {
         <button onClick={() => clickButton(inputValue)}>
           Click me!
         </button>
-        <h1>Store: {newValue}</h1>
+        <h1>{newValue}</h1>
       </div>
     );
   }
