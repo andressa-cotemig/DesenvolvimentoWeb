@@ -3,6 +3,7 @@
 
 import { combineReducers } from 'redux';
 import { clickReducer } from './clickReducer';
+import { digimonsReducer } from './digimonsReducer';
 //import { OtherReducer } from './otherReducer';
 
 //Caso sua aplicação possua vários reducers, 
@@ -10,5 +11,6 @@ import { clickReducer } from './clickReducer';
 //usando o método combineReducers.
 export const Reducers = combineReducers({
   clickState: clickReducer,
+  digimonsState: digimonsReducer
   //otherState: otherReducer
 });

@@ -2,6 +2,7 @@ import React from 'react';
 import { AlteraNome } from './AlteraNome';
 import './Aula10.scss'
 import { Nome } from './Nome';
+import { DigimonsRedux } from './Digimon'
 
 export default class Aula10 extends React.Component {
   constructor(props) {
@@ -32,6 +33,7 @@ export default class Aula10 extends React.Component {
         <h1>Aula10: {newValue}</h1>
         <Nome />
         <AlteraNome />
+        {/* <DigimonsRedux /> */}
       </div>
     );
   }
