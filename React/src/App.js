@@ -28,7 +28,7 @@ function App() {
       <Aula04 />
       <Aula03 />
       <Aula02 />
-              <Aula01 /> 
+      <Aula01 /> 
       */}
     </div>
   )
