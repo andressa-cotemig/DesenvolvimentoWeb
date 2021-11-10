@@ -25,7 +25,7 @@ const Routes = () => {
         <Route path="/Aula06" component={Aula06} />
         <Route path="/Aula07" component={Aula07} />
         <Route path="/Aula08" component={Aula08} />
-        <Route path="/Aula10" component={Aula11} />
+        <Route path="/Aula10" component={Aula10} />
       </BrowserRouter>
     </div>
   )

@@ -16,6 +16,7 @@ export default class Menu extends React.Component {
                 <Link to="/Aula06">Aula06 - Lifecycle</Link>
                 <Link to="/Aula07">Aula07 - BreakingBad</Link>
                 <Link to="/Aula08">Aula08 - Digimon</Link>
+                <Link to="/Aula10">Aula10 - Redux</Link>
             </div>
         )
     }

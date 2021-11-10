@@ -33,7 +33,7 @@ export default class Aula10 extends React.Component {
         <h1>Aula10: {newValue}</h1>
         <Nome />
         <AlteraNome />
-        {/* <DigimonsRedux /> */}
+        <DigimonsRedux />
       </div>
     );
   }
