@@ -21,7 +21,7 @@ export default function Contadores() {
 
     useEffect(() => {
         console.log(`Valor total: ${count}`);
-    });
+    }, [count]);
 
 
     return (

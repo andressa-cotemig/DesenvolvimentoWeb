@@ -9,6 +9,7 @@ import Aula07 from '../aula07_consumir-api/Aula07';
 import Aula08 from '../aula08_consumir-api-axios/Aula08';
 import { Aula10 } from "../aula10_redux";
 import Aula11 from '../aula11_hooks/Aula11';
+import Aula12 from '../aula12_testes/Aula12';
 import Menu from "./Menu/Menu";
 import './Aula09.scss';
 
@@ -28,6 +29,7 @@ const Routes = () => {
         <Route path="/Aula08" component={Aula08} />
         <Route path="/Aula10" component={Aula10} />
         <Route path="/Aula11" component={Aula11} />
+        <Route path="/Aula12" component={Aula12} />
       </BrowserRouter>
     </div>
   )
