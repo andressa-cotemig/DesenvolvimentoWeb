@@ -1,9 +1,19 @@
 import React, { useState } from "react";
 
 export const Calcular = {
-
+  somar(n1, n2) {
+    return n1 + n2
+  },
+  subtrair(n1, n2) {
+    return n1 - n2
+  },
+  dividir(n1, n2) {
+    return n1 / n2
+  },
+  multiplicar(n1, n2) {
+    return n1 * n2
+  },
 }
-
 
 export default function Calculadora() {
   const [numA, setNumA] = useState(0);
